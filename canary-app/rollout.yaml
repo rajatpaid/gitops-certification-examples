@@ -4,7 +4,7 @@ kind: Rollout
 metadata:
   name: simple-rollout
 spec:
-  revisionHistoryLimit: 1
+  revisionHistoryLimit: 2
   replicas: 10
   selector:
     matchLabels:
